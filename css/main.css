@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@700&family=Inter:wght@400;700&display=swap");z
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@700&family=Inter:wght@400;700&display=swap");
 
 * {
   padding: 0;
@@ -326,13 +326,15 @@ li {
   list-style: inside url("../media/svg/circle.svg");
 }
 
-.flex{
-  display:flex;
+.flex {
+  display: flex;
 }
-.column{
+
+.column {
   flex-direction: column;
 }
-.align-center{
+
+.align-center {
   align-items: center;
 }
 
@@ -341,24 +343,25 @@ li {
 }
 
 .form-section *:not(input[type="submit"]) {
-  width:90%;
-  padding : 0.5rem;
+  width: 90%;
+  padding: 0.5rem;
   border: 0;
   padding-left: 1rem;
   font-size: 1rem;
   margin-bottom: 1rem;
 }
 
-.form-section input{
-  border-bottom:1px solid rgba(158, 157, 156, 0.383) !important;
+.form-section input {
+  border-bottom: 1px solid rgba(158, 157, 156, 0.383) !important;
 }
-.form-section textarea{
-  margin:1rem;
+
+.form-section textarea {
+  margin: 1rem;
   background-color: rgba(209, 177, 157, 0.089);
 }
 
-.form-section input[type="submit"]{
-  background-color: #F0582B;
+.form-section input[type="submit"] {
+  background-color: #f0582b;
   color: #fff;
   border: none;
   padding: 1em;
@@ -366,13 +369,12 @@ li {
   transition: transform;
 }
 
-.form-section input[type="submit"]:hover{
-  transform: scale(1.1)
+.form-section input[type="submit"]:hover {
+  transform: scale(1.1);
 }
 
-
-@media(min-width:768px){
-  .form-section{
-    display:flex;
+@media (min-width: 768px) {
+  .form-section {
+    display: flex;
   }
 }
