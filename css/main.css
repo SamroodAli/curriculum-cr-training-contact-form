@@ -326,11 +326,14 @@ li {
   list-style: inside url("../media/svg/circle.svg");
 }
 
-.form-section * {
+.form-section *:not(input[type="submit"]) {
   display: block;
-  margin:auto;
   width:90%;
   border:none;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding : 0.5rem;
 }
 
 .form-section input[type="submit"]{
