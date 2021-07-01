@@ -338,15 +338,27 @@ li {
 
 .form-section *:not(input[type="submit"]) {
   width:90%;
-  border:none;
   padding : 0.5rem;
+  border: 0;
+  padding-left: 1rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.form-section input{
+  border-bottom:1px solid rgba(158, 157, 156, 0.383) !important;
+}
+.form-section textarea{
+  margin:1rem;
+  background-color: rgba(209, 177, 157, 0.089);
 }
 
 .form-section input[type="submit"]{
-  background-color: #F16A2B;
+  background-color: #F0582B;
   color: #fff;
   border: none;
-  padding: 0.5rem;
+  padding: 1em;
+  font-weight: bolder;
 }
 
 @media(min-width:768px){
