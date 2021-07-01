@@ -328,7 +328,13 @@ li {
 
 .form-section {
 
+}
 
+.form-section input[type="submit"]{
+  background-color: #F16A2B;
+  color: #fff;
+  border: none;
+  padding: 0.5rem;
 }
 
 @media(min-width:768px){
