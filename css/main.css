@@ -336,6 +336,10 @@ li {
   align-items: center;
 }
 
+.form-section .form-heading {
+  font-size: 2rem;
+}
+
 .form-section *:not(input[type="submit"]) {
   width:90%;
   padding : 0.5rem;
@@ -359,7 +363,13 @@ li {
   border: none;
   padding: 1em;
   font-weight: bolder;
+  transition: transform;
 }
+
+.form-section input[type="submit"]:hover{
+  transform: scale(1.1)
+}
+
 
 @media(min-width:768px){
   .form-section{
