@@ -326,4 +326,13 @@ li {
   list-style: inside url("../media/svg/circle.svg");
 }
 
+.form-section {
 
+
+}
+
+@media(min-width:768px){
+  .form-section{
+    display:flex
+  }
+}
