@@ -326,8 +326,11 @@ li {
   list-style: inside url("../media/svg/circle.svg");
 }
 
-.form-section {
-
+.form-section * {
+  display: block;
+  margin:auto;
+  width:90%;
+  border:none;
 }
 
 .form-section input[type="submit"]{
