@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/SamroodAli/curriculum-cr-training-contact-form/issues"
   },
-  "homepage": "https://github.com/SamroodAli/curriculum-cr-training-contact-form#readme"
+  "homepage": "https://github.com/SamroodAli/curriculum-cr-training-contact-form#readme",
+  "devDependencies": {
+    "hint": "^6.1.4",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.19.0"
+  }
 }
