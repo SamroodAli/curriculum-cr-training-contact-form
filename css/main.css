@@ -326,13 +326,19 @@ li {
   list-style: inside url("../media/svg/circle.svg");
 }
 
+.flex{
+  display:flex;
+}
+.column{
+  flex-direction: column;
+}
+.align-center{
+  align-items: center;
+}
+
 .form-section *:not(input[type="submit"]) {
-  display: block;
   width:90%;
   border:none;
-  display:flex;
-  flex-direction: column;
-  align-items: center;
   padding : 0.5rem;
 }
 
@@ -345,6 +351,6 @@ li {
 
 @media(min-width:768px){
   .form-section{
-    display:flex
+    display:flex;
   }
 }
