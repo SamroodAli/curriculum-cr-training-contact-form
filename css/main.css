@@ -352,7 +352,7 @@ li {
 }
 
 .form-section input {
-  border-bottom: 1px solid rgba(158, 157, 156, 0.383) !important;
+  border-bottom: 1px solid rgba(158, 157, 156, 0.383);
 }
 
 .form-section textarea {
